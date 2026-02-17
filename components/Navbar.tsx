@@ -1,7 +1,7 @@
 import { useOutletContext } from "react-router";
 import { Box } from "lucide-react";
 
-import { Button } from "./ui/Button";
+import  Button  from "./ui/Button";
 
 const Navbar = () => {
     const { isSignedIn, userName, signIn, signOut } =
